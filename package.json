@@ -1,0 +1,61 @@
+{
+  "name": "codesaarthi",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@react-oauth/google": "^0.12.1",
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "axios": "^1.6.5",
+    "dotenv": "^16.4.1",
+    "jquery": "^3.7.1",
+    "jwt-decode": "^4.0.0",
+    "mdb-react-ui-kit": "^7.2.0",
+    "mkdirp": "^3.0.1",
+    "nodemon": "^3.0.3",
+    "pod": "^0.9.0",
+    "proxy": "^2.1.1",
+    "puppeteer": "^22.4.0",
+    "react": "^18.2.0",
+    "react-copy-to-clipboard": "^5.1.0",
+    "react-dom": "^18.2.0",
+    "react-helmet": "^6.1.0",
+    "react-linkedin-login-oauth2": "^2.0.1",
+    "react-qr-code": "^2.0.12",
+    "react-router-dom": "^6.21.3",
+    "react-scripts": "5.0.1",
+    "react-snap": "^1.23.0",
+    "react-toastify": "^10.0.4",
+    "web-vitals": "^2.1.4"
+  },
+  "puppeteer": {
+    "args": [
+      "--no-sandbox"
+    ]
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "dev": "index.js",
+    "generate-sitemap": "node sitemap-generator.js"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
